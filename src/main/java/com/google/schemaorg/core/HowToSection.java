@@ -7,7 +7,7 @@ import com.google.schemaorg.core.datatype.*;
 import com.google.schemaorg.core.datatype.Integer;
 import com.google.schemaorg.core.datatype.Number;
 import com.google.schemaorg.goog.PopularityScoreSpecification;
-import org.jetbrains.annotations.Nullable;
+import javax.annotation.Nullable;
 
 public interface HowToSection extends CreativeWork, ItemList, ListItem {
     public interface Builder extends CreativeWork.Builder, ItemList.Builder, ListItem.Builder {
